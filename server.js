@@ -8,7 +8,7 @@ app.get("/saludos", function(req, res){
     res.send("Hola desde express");
 });
 
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT
 
 app.listen(PORT, ()=> {
     console.log(`El servidor funciona correctamente en el puerto: ${PORT}`);
